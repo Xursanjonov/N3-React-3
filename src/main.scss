@@ -7,7 +7,6 @@ body { background-color: gray;  color: white;}
 ul, ol { list-style: none; }
 a { text-decoration: none; }
 a, button { cursor: pointer; }
-
 .container {
     width: 70rem;
     margin: 2rem auto;
@@ -37,21 +36,24 @@ a, button { cursor: pointer; }
     font-size: 1.2rem;
     font-weight: 600;
 }
-
 .form button {
     width: 7rem;
     padding: .8rem .8rem;
     border-radius: 20px;
     font-weight: 700;
     font-size: 1.2rem;
+    background-color: lime;
+    border: 2px solid black;
 }
-
+.form button:hover {
+    color: white;
+    background-color: lime;
+}
 .box {
     width: 100%;
     margin: 0 auto;
     padding: .8rem;
 }
-
 .card_1 {
     gap: .8rem;
     width: 100%;
@@ -64,24 +66,21 @@ a, button { cursor: pointer; }
     background-color: rgb(255, 255, 255);
     grid-template-columns: 2fr 2fr .5fr;
 }
-
 h3 {
+    color: black;
     padding: .5rem 1.4rem;
 }
-
 .card-btns {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 1rem;
 }
-
 .edite , .delete {
     font-size: 1.2rem;
     padding: .5rem;
     border-radius: 10px;
 }
-
 .edite {
     background-color: gold;
     border: .1rem solid gold;
@@ -90,7 +89,8 @@ h3 {
     background-color: red;
     border: .1rem solid red;
 }
-
 .card-btns button:hover {
-    box-shadow: 0 0 .4rem aqua;
+    background-color: lime;
+    border-color: lime;
+    box-shadow: 0 0 .4rem black;
 }
