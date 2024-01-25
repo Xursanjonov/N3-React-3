@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body { background-color: gray;  color: white;}
+ul, ol { list-style: none; }
+a { text-decoration: none; }
+a, button { cursor: pointer; }
+
+.container {
+    width: 70rem;
+    margin: 2rem auto;
+    border-radius: 1rem;
+    padding: 2rem;
+    color: blue;
+    background-color: aqua;
+}
+.title {
+    text-align: center;
+    font-size: 2.6rem;
+}
+.form {
+    width: 100%;
+    margin: 2rem auto 1rem;
+    padding: 1.2rem 1.2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.form input {
+    width: 80%;
+    padding: .6rem 1.4rem;
+    border-radius: 40px;
+    border: .1rem solid black;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.form button {
+    width: 7rem;
+    padding: .8rem .8rem;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.box {
+    width: 100%;
+    margin: 0 auto;
+    padding: .8rem;
+}
+
+.card_1 {
+    gap: .8rem;
+    width: 100%;
+    display: grid;
+    font-weight: 600;
+    margin-top: .8rem;
+    align-items: center;
+    padding: .5rem 1.4rem;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    grid-template-columns: 2fr 2fr .5fr;
+}
+
+h3 {
+    padding: .5rem 1.4rem;
+}
+
+.card-btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.edite , .delete {
+    font-size: 1.2rem;
+    padding: .5rem;
+    border-radius: 10px;
+}
+
+.edite {
+    background-color: gold;
+    border: .1rem solid gold;
+}
+.delete {
+    background-color: red;
+    border: .1rem solid red;
+}
+
+.card-btns button:hover {
+    box-shadow: 0 0 .4rem aqua;
+}
