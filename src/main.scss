@@ -64,12 +64,18 @@ a, button { cursor: pointer; }
     padding: .5rem 1.4rem;
     border-radius: 20px;
     background-color: rgb(255, 255, 255);
-    grid-template-columns: 2fr 2fr .5fr;
+    grid-template-columns: 2fr .5fr;
 }
 h3 {
     color: black;
     padding: .5rem 1.4rem;
 }
+.card-input {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
 .card-btns {
     display: flex;
     align-items: center;
@@ -95,9 +101,49 @@ h3 {
     box-shadow: 0 0 .4rem black;
 }
 
-.d-block {
-    display: block;
+// Edite
+.card-edite {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
 }
-.d-nane {
-    display: none;
+.editNewName {
+    padding: .3rem 1rem;
+    border-radius: 1rem;
 }
+.editNewAge {
+    padding: .3rem 1rem;
+    border-radius: 1rem;
+}
+.editeNew {
+    padding: .3rem;
+    font-size: 2rem;
+}
+.card-edite button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .4rem;
+    font-size: 1.4rem;
+    border-radius: .5rem;
+    background-color: lime;
+    border-color: lime;
+    color: black;
+}
+.card-edite button:hover {
+    box-shadow: 0 0 .4rem black;
+    background-color: white;
+    color: black;
+}
+// Edite end
+
+// Card Input
+.card-input {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+// Card Input end

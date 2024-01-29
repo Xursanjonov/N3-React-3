@@ -18,11 +18,10 @@ export const TodoList = ({ addDate }) => {
         }
         return (<>
             <form className='form' onSubmit={submit}>
-                <input onChange={change} className='name' value={input.name} name="name" type="text" placeholder='Full Name' />
+                <input onChange={change} className='name' value={input.name} name="name" type="text" placeholder='Name' />
                 <input onChange={change} className='age' value={input.age} name="age" type="text" placeholder='age' />
                 <button className='submitBtn' type='submit'>Submit</button>
             </form>
-            <div className="error d-block d-nane"></div>
         </>
         )
     } catch (e) { console.log(e); }
